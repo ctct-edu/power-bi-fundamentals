@@ -218,10 +218,3 @@ Desktopでは上部に［ホーム］と［発行］があり、Serviceではブ
 これで、Excelから始まり、Power Query、複数ソースのモデル、DAX、可視化、Power BI Serviceでの共有までの流れを一通り実践しました。
 
 [演習一覧へ戻る](README.md)
-
-## 公式リファレンス
-
-- [Power BI Desktopからセマンティックモデルとレポートを発行する](https://learn.microsoft.com/ja-jp/power-bi/create-reports/desktop-upload-desktop-files)
-- [Power BIのワークスペース](https://learn.microsoft.com/ja-jp/power-bi/collaborate-share/service-new-workspaces)
-- [Power BIのダッシュボード](https://learn.microsoft.com/ja-jp/power-bi/create-reports/service-dashboards)
-- [Power BIでアプリを発行する](https://learn.microsoft.com/ja-jp/power-bi/collaborate-share/service-create-distribute-apps)
