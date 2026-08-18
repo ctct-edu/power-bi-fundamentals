@@ -20,7 +20,7 @@
 | [01](./LabManual/01-create-first-report-from-excel.md) | Excelから複数ビジュアルの簡易レポートを作成 | 25分 | Excel |
 | [02](./LabManual/02-transform-data-with-power-query.md) | Power Queryでデータを整形 | 25分 | Excel |
 | [03](./LabManual/03-data-modeling-and-dax.md) | 複数データのモデル化とDAX | 45分 | Excel、SQL Server、SharePoint |
-| [04](./LabManual/04-report-visualization.md) | グラフ・表・マトリクスで可視化 | 35分 | 演習03のモデル |
+| [04](./LabManual/04-report-visualization.md) | グラフ・表・マトリクスで可視化 | 45分 | 演習03のモデル |
 | [05](./LabManual/05-sharing-with-power-bi-service.md) | Power BI Serviceで共有 | 25分 | Power BI Service |
 
 ## ファイルの配置
