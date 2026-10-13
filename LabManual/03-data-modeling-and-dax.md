@@ -73,10 +73,6 @@
 | 売上日 | 日付 |
 | 割引率 | 10進数 |
 
-> **画面確認**
->
-> `売上`は7,612行です。`Source.Name`には12個の月別ファイル名が表示されます。
-
 ### 2. 商品・店舗マスターを読み込む
 
 #### 標準経路：SQL Server
@@ -102,7 +98,7 @@ SQL Serverへ接続できない場合は、次の設定でExcelを2回読み込�
 
 #### 標準経路：SharePointリスト
 
-1. ［新しいソース］→［SharePoint Onlineリスト］または［SharePointリスト］を選択します。
+1. ［新しいソース］→［SharePoint Onlineリスト］を選択します。
 2. サイトURLに `https://ctctedu.sharepoint.com/sites/power-bi-fundamentals` と入力します。
 3. Microsoftアカウントでサインインします。アカウント情報はPower BI Desktopでサインインする際に使用したものと同じものを使用します。
 4. サインインが完了したら［接続］をクリックして、ナビゲーターで`販売目標`を選択して［OK］をクリックします。
