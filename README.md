@@ -4,8 +4,6 @@
 
 本マニュアルは、CTCテクノロジー主催「[Power BIによる業務データ分析入門](https://www.school.ctc-g.co.jp/course/P618.html)」のラボマニュアルです。Power BIを初めて操作する方を対象としています。
 
-公開中のラボ内容を、基本要素を維持したまま120分へ圧縮しています。5つのラボで同じ `みらいリテール_売上実績分析.pbix` を使用し、Excelの簡易レポートを、複数データソースを使う2ページの業務レポートへ段階的に発展させます。
-
 ## ラボシナリオ
 
 あなたは、小売企業「みらいリテール」の営業企画部に配属されたデータ分析担当者です。営業責任者から、月ごとの売上実績と目標達成状況を、商品カテゴリ・地域・店舗の観点で確認できるレポートの作成を依頼されました。
@@ -21,7 +19,6 @@ Excel、SQL Server、SharePointに分かれているデータをPower BIで統�
 | [03](./LabManual/03-data-modeling-and-dax.md) | 複数データのモデル化とDAX | 35分 | Excel、SQL Server、SharePoint |
 | [04](./LabManual/04-report-visualization.md) | 2ページの業務レポートへ拡張 | 35分 | ラボ03のモデル |
 | [05](./LabManual/05-sharing-with-power-bi-service.md) | Power BI Serviceで発行・共有 | 15分 | Power BI Service |
-|  | **合計** | **120分** |  |
 
 ## ラボの進め方
 
@@ -73,19 +70,3 @@ SQL ServerとSharePoint Onlineリストは研修環境へ接続します。接�
 - 都道府県別売上を示すAzure Maps
 - 地域、都道府県、店舗名を展開できるマトリクス
 - 売上サマリーと同期する年月・地域スライサー
-
-## 研修環境について
-
-- Power BI Desktopは2026年10月時点の画面を前提としています。
-- 受講者にはPower BI Premium Per User付きの組織アカウントを配布します。
-- 講師は受講者ごとに `みらいリテール 営業分析（受講者ID）` ワークスペースを事前作成し、各受講者へ［メンバー］または［管理者］ロールを割り当てます。全員が同じ名前の `みらいリテール_売上実績分析.pbix` を発行するため、ワークスペースは共用しません。
-- テナント設定やネットワークポリシーによりAzure Mapsを利用できない場合は、講師の画面で結果を確認します。
-- プレビュー機能は必須操作に含めません。
-
-## 参考情報
-
-- [Power BIのKPIビジュアル](https://learn.microsoft.com/power-bi/visuals/power-bi-visualization-kpi)
-- [Power BIのスライサー](https://learn.microsoft.com/power-bi/visuals/power-bi-visualization-slicers)
-- [Azure Maps Power BIビジュアル](https://learn.microsoft.com/azure/azure-maps/power-bi-visual-get-started)
-- [Power BIワークスペース](https://learn.microsoft.com/power-bi/collaborate-share/service-new-workspaces)
-- [Power BIアプリの作成と発行](https://learn.microsoft.com/power-bi/collaborate-share/service-create-distribute-apps)
